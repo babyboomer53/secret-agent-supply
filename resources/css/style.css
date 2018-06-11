@@ -1,0 +1,164 @@
+html {
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    border: 1px solid black;
+}
+
+header section {
+    width: 100%;
+    height: 2rem;
+    background-color: Black;
+}
+
+.flex-container {
+    width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+    /*Justify-content: space-Between;*/
+    /*align-items: center;*/
+    margin: 0 auto;
+}
+
+header section div img {
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+
+header section div h1 {
+    margin-top: 8px;
+}
+
+#new-product-announcement {
+    width: 100%;
+    height: 25rem;
+    background-image: url("../../resources/images/moto.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new-product {
+    width: 14rem;
+    padding: 2rem 3rem;
+    background-color: black;
+    opacity: 0.75;
+    margin-top: 5rem;
+    line-height: 1.25;
+}
+
+.new-product h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.new-product h1:nth-child(1) {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+nav {
+    width: 100%;
+    height: 2.5rem;
+    background-color: firebrick;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /*align-content: space-around;*/
+}
+
+nav .flex-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.featured-products {
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.featured-product {
+    width: 30%;
+    /*height: 100px;*/
+    border: 4px solid Black;
+    color: inherit;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.featured-product img {
+    display: block;
+    height: 9rem;
+    width: auto;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.featured-product:nth-child(3) img {
+    width: 75%;
+    height: auto;
+    margin: 2.2rem auto;
+}
+
+.featured-product h3 {
+    font-size: 1rem;
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    background-color: Black;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.featured-product:hover {
+    opacity: 1;
+}
+
+#about {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+#about .location,
+#about .hours {
+    /*display: flex;*/
+    width: 35%;
+    font-family: Helvetica;
+    background-color: black;
+    color: White;
+}
+
+.line-1 {
+    padding-left: 2rem;
+}
+
+.line-2 {
+    color: Black;
+    background-color: White;
+    padding-top: 10px;
+}
+
+a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    height: 5rem;
+    background-color: black;
+    margin-top: 4rem;
+    align-items: center;
+}
