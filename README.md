@@ -24,3 +24,5 @@ During the last few days, Brackets behavior has become more erratic. During that
 I'd been using the W3C validator for several days without issue. I'm not sure why it would suddenly start giving me problems. A few days ago I moved my project from my local system to CodePen. Perhaps the problem with Brackets hadn't had an opportunity to reveal itself.
 
 All is well that ends well, but I've lost the built-in validator in the process. I guess one option I have is to enable the validator when I don't need Live Preview.
+
+I spent all morning and half of the afternoon trying to impllement a "sticky" navigation bar in the browser. I found a couple of examples on the Internet, of which I tried two. The one I ended up using had the fewest lines of code (not necessarily a selection criterion), and was found at https://www.w3schools.com/howto/howto_js_navbar_sticky.asp. In the end, it was the Z-index property that came to the rescue! Until I applied that property to the element I wanted sticking to the top of the page, it kept scrolling out of sight.
