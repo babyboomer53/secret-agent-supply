@@ -15,8 +15,6 @@ header section {
     width: 960px;
     display: flex;
     flex-flow: row wrap;
-    /*Justify-content: space-Between;*/
-    /*align-items: center;*/
     margin: 0 auto;
 }
 
@@ -68,8 +66,6 @@ nav {
 nav div {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    /*align-content: space-around;*/
 }
 
 nav .flex-container a {
@@ -84,7 +80,6 @@ nav .flex-container a {
 
 .featured-product {
     width: 30%;
-    /*height: 100px;*/
     border: 4px solid Black;
     color: inherit;
     background-color: white;
@@ -102,7 +97,7 @@ nav .flex-container a {
 .featured-product:nth-child(3) img {
     width: 75%;
     height: auto;
-    margin: 2.2rem auto;
+    margin: 30px auto;
 }
 
 .featured-product h3 {
@@ -119,39 +114,44 @@ nav .flex-container a {
     opacity: 1;
 }
 
+.hours:hover {
+    opacity: 1;
+}
+
 .location:hover {
     opacity: 1;
 }
 
 #about {
-    max-width: 960px;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 3rem;
 }
 
-#about .location,
-#about .hours {
-    /*display: flex;*/
+.location, .hours {
     width: 35%;
-    font-family: Helvetica;
-    background-color: black;
-    color: White;
+    /*border: 1px solid Black;*/
+    color: inherit;
+    background-color: Black;
+    opacity: 0.5;
 }
 
-.line-1 {
+.hours .line-1,
+.location .line-1 {
     padding-left: 2rem;
 }
 
-.line-2 {
+.hours .line-2,
+.location .line-2 {
+    font-size: Inherit;
     color: Black;
     background-color: White;
-    padding-top: 10px;
+    width: 100%;
+    
 }
 
-a {
-    display: block;
+.navigation-bar a {
+    display: Block;
     height: 40px;
     line-height: 40px;
     font-weight: bold;
@@ -159,11 +159,19 @@ a {
     text-decoration: none;
 }
 
+#about a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-right: 159px;
+}
+
 footer {
     display: flex;
     height: 6rem;
+    color: silver;
     background-color: #2C3539;
-    margin-top: 1rem;
+    
     align-items: center;
 }
 
@@ -173,6 +181,10 @@ footer {
     width: 100%;
 }
 
-.sticky + .content {
+.sticky+.content {
     padding-top: 60px;
+}
+
+h3 {
+    margin: 0;
 }
