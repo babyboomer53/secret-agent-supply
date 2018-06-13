@@ -54,7 +54,7 @@ header section div h1 {
 
 .new-product h1:nth-child(1) {
     font-size: 1rem;
-    margin-bottom: 0.25rem;
+    /*margin-bottom: 0.25rem;*/
 }
 
 nav {
@@ -66,6 +66,7 @@ nav {
 nav div {
     display: flex;
     justify-content: space-between;
+    line-height: 40px;
 }
 
 nav .flex-container a {
