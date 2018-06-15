@@ -54,7 +54,6 @@ header section div h1 {
 
 .new-product h1:nth-child(1) {
     font-size: 1rem;
-    /*margin-bottom: 0.25rem;*/
 }
 
 nav {
@@ -125,30 +124,29 @@ nav .flex-container a {
 
 #about {
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 3rem;
 }
 
-.location, .hours {
+.location,
+.hours {
     width: 35%;
-    /*border: 1px solid Black;*/
-    color: inherit;
-    background-color: Black;
+    font-family: Helvetica;
+    background-color: black;
+    color: White;
     opacity: 0.5;
 }
 
-.hours .line-1,
-.location .line-1 {
+.line-1 {
+    height: 50px;
+    line-height: 50px;
     padding-left: 2rem;
 }
 
-.hours .line-2,
-.location .line-2 {
-    font-size: Inherit;
-    color: Black;
-    background-color: White;
-    width: 100%;
-    
+.line-2 {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    line-height: 50px;
 }
 
 .navigation-bar a {
@@ -161,10 +159,12 @@ nav .flex-container a {
 }
 
 #about a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
     font-weight: bold;
     color: black;
     text-decoration: none;
-    padding-right: 159px;
 }
 
 footer {
@@ -172,7 +172,6 @@ footer {
     height: 6rem;
     color: silver;
     background-color: #2C3539;
-    
     align-items: center;
 }
 
@@ -184,8 +183,4 @@ footer {
 
 .sticky+.content {
     padding-top: 60px;
-}
-
-h3 {
-    margin: 0;
 }
