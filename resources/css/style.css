@@ -86,7 +86,7 @@ nav .flex-container a {
 
 .featured-product {
     width: 30%;
-    border: 4px solid Black;
+    border: 2px solid Black;
     color: inherit;
     background-color: white;
     opacity: 0.3;
@@ -139,7 +139,7 @@ nav .flex-container a {
     font-family: Helvetica;
     background-color: black;
     color: White;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .line-1 {
