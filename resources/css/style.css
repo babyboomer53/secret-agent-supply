@@ -12,6 +12,7 @@ header section {
 }
 
 .flex-container {
+    position: relative;
     width: 960px;
     display: flex;
     flex-flow: row wrap;
@@ -76,6 +77,11 @@ nav .flex-container a {
 .featured-products {
     margin-top: 10rem;
     justify-content: space-between;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .featured-product {
@@ -83,7 +89,7 @@ nav .flex-container a {
     border: 4px solid Black;
     color: inherit;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .featured-product img {
@@ -175,12 +181,12 @@ footer {
     align-items: center;
 }
 
-#diffuser{
+#diffuser {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
-    background-color: gray;
+    background-color: Gray;
     opacity: 0.5;
     z-index: 10;
 }
@@ -191,6 +197,6 @@ footer {
     width: 100%;
 }
 
-.sticky+.content {
+.sticky + .content {
     padding-top: 60px;
 }
